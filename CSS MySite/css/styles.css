@@ -13,25 +13,78 @@ h1 {
 }
 
 h2 {
-  margin-top: 0;
+  margin-top: 20px;
   font-family: 'Raleway', sans-serif;
   font-size: 3.00rem;
+  color: #28527A;
+}
+
+h3 {
+  margin: 20px 0 0 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.00rem;
+  color: #28527A;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
 }
 
-.skill-row {
+a {
+  color: #28527A;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#fbeeac;
+  text-decoration: none;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 5px;
+  border-color: #28527A;
+  width: 10%;
+}
+
+.portfolio-row {
   width: 50%;
   margin: 100px auto;
   text-align: left;
   line-height: 2;
 }
 
+.cewit-awards {
+  background-color: #28527A;
+  border: solid #28527A;
+  color: #8ac4d0;
+  border-radius: 5px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.cewit-awards-text {
+  margin: .2rem 0;
+}
+
+.winner {
+  color: #f4d160;
+}
+
 .internzip {
   width: 25%;
   margin: 0 auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.hiking {
+  width: 25%;
+  margin: 0 auto;
+  float: right;
+  margin-left: 30px;
 }
 
 .csmajor {
