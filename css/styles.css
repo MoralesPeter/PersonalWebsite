@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-  margin-top: 20px;
+  margin: 3% 0;
   font-family: 'Raleway', sans-serif;
   font-size: 3.00rem;
   color: #28527A;
@@ -46,6 +46,15 @@ hr {
   border-top-width: 5px;
   border-color: #28527A;
   width: 10%;
+  margin-bottom: 5%;
+}
+
+.contact-me {
+  padding-bottom: 2%;
+}
+
+.btn {
+  margin-bottom: 2%;
 }
 
 .container-fluid {
@@ -54,7 +63,7 @@ hr {
 
 .portfolio-row {
   width: 50%;
-  margin: 100px auto;
+  margin: 4% auto;
   text-align: left;
   line-height: 2;
 }
@@ -65,12 +74,12 @@ hr {
   color: #8ac4d0;
   border-radius: 5px;
   text-align: center;
-  width: 50%;
+  width: 45%;
   margin: 0 auto;
 }
 
 .cewit-awards-text {
-  margin: .2rem 0;
+  margin: 0;
 }
 
 .winner {
@@ -115,11 +124,18 @@ hr {
   top: 300px;
 }
 
-.top-container {
+.nav-container {
   background-color: #28527A;
   height: 50%;
   padding: 20px;
   /*margin: 0 auto; Center horizontally with width set */
+}
+
+.top-container {
+  background: rgb(40,82,122);
+  background: linear-gradient(315deg, rgba(40,82,122,1) 32%, rgba(138,196,208,1) 83%, rgba(251,238,172,1) 100%);
+  height: 50%;
+  padding: 20px;
 }
 
 .middle-container {
